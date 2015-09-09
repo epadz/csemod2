@@ -12,11 +12,13 @@
 
 # Command Line History (newest to oldest):
 :q
-:Q
 :q!
-:.,.+1!
-:w!
+:20
+:w !sudo tee %
 :w
+:w!
+:Q
+:.,.+1!
 :x!
 :x
 
@@ -32,15 +34,32 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	/
 
 # File marks:
-'0  1  0  ~/public_html
-'1  375  0  /etc/httpd/conf/httpd.conf
-'2  367  24  /etc/httpd/conf/httpd.conf
-'3  374  3  /etc/httpd/conf/httpd.conf
-'4  369  4  /etc/httpd/conf/httpd.conf
+'0  18  0  /var/www/html/module2/file_upload.php
+'1  1  0  /var/www/html/module2/files.html
+'2  2  24  /var/www/html/module2/test.php
+'3  1  0  /var/www/html/user.txt
+'4  11  6  /var/www/html/php_calculator.html
+'5  2  0  /var/www/html/hello.txt
+'6  1  0  ~/public_html
+'7  375  0  /etc/httpd/conf/httpd.conf
+'8  367  24  /etc/httpd/conf/httpd.conf
+'9  374  3  /etc/httpd/conf/httpd.conf
 
 # Jumplist (newest first):
+-'  18  0  /var/www/html/module2/file_upload.php
+-'  1  0  /var/www/html/module2/file_upload.php
+-'  1  0  /var/www/html/module2/files.html
+-'  2  24  /var/www/html/module2/test.php
+-'  1  0  /var/www/html/module2/test.php
+-'  1  0  /var/www/html/user.txt
+-'  11  6  /var/www/html/php_calculator.html
+-'  1  0  /var/www/html/php_calculator.html
+-'  2  0  /var/www/html/hello.txt
+-'  1  0  /var/www/html/hello.txt
 -'  1  0  ~/public_html
 -'  375  0  /etc/httpd/conf/httpd.conf
 -'  367  4  /etc/httpd/conf/httpd.conf
@@ -52,8 +71,120 @@
 -'  374  4  /etc/httpd/conf/httpd.conf
 -'  369  4  /etc/httpd/conf/httpd.conf
 -'  1  0  /etc/httpd/conf/httpd.conf
+-'  1  0  ~/public_html
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  2  0  /var/www/html/hello.txt
+-'  1  0  /var/www/html/hello.txt
+-'  1  0  ~/public_html
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  1  0  ~/public_html
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  11  6  /var/www/html/php_calculator.html
+-'  1  0  /var/www/html/php_calculator.html
+-'  2  0  /var/www/html/hello.txt
+-'  1  0  /var/www/html/hello.txt
+-'  1  0  ~/public_html
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  1  0  ~/public_html
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  2  0  /var/www/html/hello.txt
+-'  1  0  /var/www/html/hello.txt
+-'  1  0  ~/public_html
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  375  0  /etc/httpd/conf/httpd.conf
+-'  367  4  /etc/httpd/conf/httpd.conf
+-'  374  4  /etc/httpd/conf/httpd.conf
+-'  369  4  /etc/httpd/conf/httpd.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  1  0  ~/public_html
+-'  375  0  /etc/httpd/conf/httpd.conf
 
 # History of marks within files (newest to oldest):
+
+> /var/www/html/module2/file_upload.php
+	"	18	0
+	^	18	26
+	.	18	26
+	+	18	26
+
+> /var/www/html/module2/files.html
+	"	1	0
+
+> /var/www/html/module2/test.php
+	"	2	24
+	^	4	18
+	.	5	0
+	+	5	1
+	+	6	1
+	+	7	1
+	+	4	17
+	+	8	1
+	+	5	0
+
+> /var/www/html/user.txt
+	"	1	0
+	^	1	0
+
+> /var/www/html/php_calculator.html
+	"	11	6
+	^	11	7
+	.	11	7
+	+	11	7
+
+> /var/www/html/hello.txt
+	"	2	0
+	^	2	0
+	.	1	2
+	+	1	2
 
 > ~/public_html
 	"	1	0
